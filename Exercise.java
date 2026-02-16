@@ -10,13 +10,14 @@ public class Demo
         
         String fruit  = keyboard.nextLine();
         
+        
 
-        if(fruit.equals("banana"))
+        if(fruit.equalsIgnoreCase("banana"))
         {
             System.out.println("Thank you");
         
         }
-        else if(fruit.equals("apple"))
+        else if(fruit.equalsIgnoreCase("apple"))
         {
             System.out.println("Thank you");
         }
