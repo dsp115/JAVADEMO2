@@ -6,7 +6,7 @@ public class Demo
     {
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("What fruit or berry would you give me?:");
+        System.out.println("What fruit or berry would you give me, banana or apple?:");
         
         String fruit  = keyboard.nextLine();
         
