@@ -18,5 +18,22 @@ public class Demo
         {
             System.out.println("Access Denied!: You are " + (7292 - code) + " away from the code");
         }
+        
+        System.out.println("What's the word?");
+        
+        keyboard.nextLine(); // buffers
+        keyboard.nextLine(); // buffers
+        
+        String code1 = keyboard.nextLine();
+
+        if(code1.equals("potato3s"))
+        {
+            System.out.println("Access granted!");
+        
+        }
+        else
+        {
+            System.out.println("Access Denied!: its potato3s");
+        }
     }
 }
