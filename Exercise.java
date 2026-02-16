@@ -12,14 +12,10 @@ public class Demo
         
         
 
-        if(fruit.equalsIgnoreCase("banana"))
+        if(fruit.equalsIgnoreCase("banana") || fruit.equalsIgnoreCase("apple"))
         {
             System.out.println("Thank you");
         
-        }
-        else if(fruit.equalsIgnoreCase("apple"))
-        {
-            System.out.println("Thank you");
         }
         else 
         {
